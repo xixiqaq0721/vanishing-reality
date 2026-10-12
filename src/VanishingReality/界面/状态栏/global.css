@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* 面：侵渊侧由外到内的三层底 + 边线 */
+  --c-surface: #120a1b;
+  --c-surface-2: #1d102c;
+  --c-surface-3: #2a1740;
+  --c-border: #4a2c66;
+  --c-text: #eadff5;
+  --c-text-muted: #9d86b8;
+
+  /* 态：圣辉（未堕）→ 侵染（进行）→ 灾祸（已堕） */
+  --c-holy: #ffd9ec;
+  --c-holy-accent: #ff7ab8;
+  --c-taint: #b026ff;
+  --c-danger: #ff3d6e;
+
+  /* 资源：两条计量各自的数据来源 */
+  --c-star: #ffe9a8; /* 星尘流量 Star Particle Charm */
+  --c-ergo: #7ef0d0; /* 艾尔戈物质 */
+  --c-audience: #7ab8ff; /* 直播间观众 */
+
+  /* 字体：正文用系统无衬线，计量与编号用等宽以便对齐 */
+  --font-body: 'Sarasa Gothic SC', 'Microsoft YaHei', system-ui, -apple-system, sans-serif;
+  --font-metric: ui-monospace, 'Cascadia Mono', Consolas, 'Sarasa Mono SC', monospace;
+}

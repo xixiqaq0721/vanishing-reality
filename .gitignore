@@ -11,3 +11,6 @@ pnpm-debug.log*
 
 auto-imports.d.ts
 components.d.ts
+
+# 离线预览生成物
+tools/preview/
