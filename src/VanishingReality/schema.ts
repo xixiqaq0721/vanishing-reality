@@ -6,8 +6,12 @@
 // schema.parse 仍会产出一份完整的初始态，界面不会渲染成空白。
 // 这份初始态同时充当离线渲染验收的 fixture。
 
+// 注意：本文件同时被两处消费——
+//   1) 前端构建（webpack 正常处理 TS）
+//   2) forge 的 Zod 脚本（原样内嵌为 JS，不做转译）
+// 因此这里只写 TS 与 JS 双合法的语法：参数不写类型标注，export type 行由 forge 过滤。
 /** 权能条目：等级 + 说明。默认值即该权能的一级形态。 */
-const 权能条目 = (描述: string, 等级 = 1) =>
+const 权能条目 = (描述, 等级 = 1) =>
   z
     .object({
       等级: z.coerce.number().default(等级),
@@ -16,17 +20,7 @@ const 权能条目 = (描述: string, 等级 = 1) =>
     .prefault({});
 
 /** 圣辉少女：一份名册条目。front 为圣辉形态，back 为魔娼形态。 */
-const 少女条目 = (默认值: {
-  称号: string;
-  形态名: string;
-  灾祸名: string;
-  真名: string;
-  武器: string;
-  星徽: string;
-  侵蚀度: number;
-  圣辉余量: number;
-  观众: number;
-}) =>
+const 少女条目 = 默认值 =>
   z
     .object({
       称号: z.string().default(默认值.称号),
