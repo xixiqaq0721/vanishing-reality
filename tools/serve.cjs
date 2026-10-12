@@ -33,14 +33,18 @@ function resolveTarget(urlPath) {
 
 http
   .createServer((req, res) => {
-    // 宿主页把量测结果回传，落盘成机器可读证据
+    // 宿主页把量测结果回传，落盘成机器可读证据（?name=xxx 指定文件名）
     if (req.method === 'POST' && (req.url || '').split('?')[0] === '/report') {
-      let body = '';
-      req.on('data', c => (body += c));
+      const q = new URLSearchParams((req.url || '').split('?')[1] || '');
+      const name = (q.get('name') || 'iframe').replace(/[^a-zA-Z0-9_-]/g, '');
+      let chunks = [];
+      req.on('data', c => chunks.push(c));
       req.on('end', () => {
         try {
-          fs.writeFileSync(path.join(previewRoot, 'iframe-report.json'), body, 'utf8');
-          console.log('iframe report written (' + body.length + ' B)');
+          // 用 Buffer 拼接再一次性解码：逐块 toString 会在多字节字符跨块处解坏
+          const body = Buffer.concat(chunks).toString('utf8');
+          fs.writeFileSync(path.join(previewRoot, name + '-report.json'), body, 'utf8');
+          console.log(name + ' report written (' + body.length + ' B)');
         } catch (e) {
           console.log('report write failed: ' + e.message);
         }
