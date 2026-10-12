@@ -1,0 +1,335 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "侵渊": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "支配版图": {
+          "default": 12,
+          "type": "number"
+        },
+        "艾尔戈物质": {
+          "default": 3,
+          "type": "number"
+        },
+        "权能": {
+          "default": {},
+          "type": "object",
+          "properties": {
+            "夺舍寄生": {
+              "default": {},
+              "type": "object",
+              "properties": {
+                "等级": {
+                  "default": 1,
+                  "type": "number"
+                },
+                "描述": {
+                  "default": "占取一具人类肉体，借其身份行走于现实。",
+                  "type": "string"
+                }
+              }
+            },
+            "领域展开": {
+              "default": {},
+              "type": "object",
+              "properties": {
+                "等级": {
+                  "default": 1,
+                  "type": "number"
+                },
+                "描述": {
+                  "default": "自黄昏起张开 VaiR，随时间推移逐段吃掉现实。",
+                  "type": "string"
+                }
+              }
+            },
+            "触手侵蚀": {
+              "default": {},
+              "type": "object",
+              "properties": {
+                "等级": {
+                  "default": 1,
+                  "type": "number"
+                },
+                "描述": {
+                  "default": "以触肢缠束目标，压制其圣辉余量。",
+                  "type": "string"
+                }
+              }
+            },
+            "艾尔戈收集": {
+              "default": {},
+              "type": "object",
+              "properties": {
+                "等级": {
+                  "default": 1,
+                  "type": "number"
+                },
+                "描述": {
+                  "default": "将人类收作生态部件，归入物质储备。",
+                  "type": "string"
+                }
+              }
+            },
+            "堕落仪式": {
+              "default": {},
+              "type": "object",
+              "properties": {
+                "等级": {
+                  "default": 1,
+                  "type": "number"
+                },
+                "描述": {
+                  "default": "与圣辉少女立契，把她的名号改写成魔娼。",
+                  "type": "string"
+                }
+              }
+            },
+            "欲望收割": {
+              "default": {},
+              "type": "object",
+              "properties": {
+                "等级": {
+                  "default": 1,
+                  "type": "number"
+                },
+                "描述": {
+                  "default": "收割欲望之力与生命力，转成支配版图。",
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "领域": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "侵蚀进度": {
+          "default": 34,
+          "type": "number"
+        },
+        "观众": {
+          "default": 25649,
+          "type": "number"
+        },
+        "星尘流量": {
+          "default": 78,
+          "type": "number"
+        },
+        "时段": {
+          "default": "薄暮",
+          "type": "string"
+        }
+      }
+    },
+    "圣辉少女": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "露米芙妮亚": {
+          "default": {},
+          "type": "object",
+          "properties": {
+            "称号": {
+              "default": "乙女银星",
+              "type": "string"
+            },
+            "形态名": {
+              "default": "露米芙妮亚",
+              "type": "string"
+            },
+            "灾祸名": {
+              "default": "灾祸芙妮姬",
+              "type": "string"
+            },
+            "真名": {
+              "default": "押水濑恋",
+              "type": "string"
+            },
+            "武器": {
+              "default": "星辉大剑 · 惩戒",
+              "type": "string"
+            },
+            "星徽": {
+              "default": "六芒银星",
+              "type": "string"
+            },
+            "侵蚀度": {
+              "default": 18,
+              "type": "number"
+            },
+            "圣辉余量": {
+              "default": 82,
+              "type": "number"
+            },
+            "观众": {
+              "default": 25649,
+              "type": "number"
+            }
+          }
+        },
+        "露米茜儿卡": {
+          "default": {},
+          "type": "object",
+          "properties": {
+            "称号": {
+              "default": "少女奏星",
+              "type": "string"
+            },
+            "形态名": {
+              "default": "露米茜儿卡",
+              "type": "string"
+            },
+            "灾祸名": {
+              "default": "灾祸维戮卡",
+              "type": "string"
+            },
+            "真名": {
+              "default": "夏日薰",
+              "type": "string"
+            },
+            "武器": {
+              "default": "双生短剑 · 轮舞",
+              "type": "string"
+            },
+            "星徽": {
+              "default": "并蒂双星",
+              "type": "string"
+            },
+            "侵蚀度": {
+              "default": 41,
+              "type": "number"
+            },
+            "圣辉余量": {
+              "default": 59,
+              "type": "number"
+            },
+            "观众": {
+              "default": 18402,
+              "type": "number"
+            }
+          }
+        },
+        "露米诺克丝": {
+          "default": {},
+          "type": "object",
+          "properties": {
+            "称号": {
+              "default": "宵暗夜星",
+              "type": "string"
+            },
+            "形态名": {
+              "default": "露米诺克丝",
+              "type": "string"
+            },
+            "灾祸名": {
+              "default": "灾祸诺克蒂",
+              "type": "string"
+            },
+            "真名": {
+              "default": "冬雾纱夜",
+              "type": "string"
+            },
+            "武器": {
+              "default": "夜巡长枪 · 宵闇",
+              "type": "string"
+            },
+            "星徽": {
+              "default": "半月星",
+              "type": "string"
+            },
+            "侵蚀度": {
+              "default": 7,
+              "type": "number"
+            },
+            "圣辉余量": {
+              "default": 93,
+              "type": "number"
+            },
+            "观众": {
+              "default": 11270,
+              "type": "number"
+            }
+          }
+        },
+        "露米奥罗拉": {
+          "default": {},
+          "type": "object",
+          "properties": {
+            "称号": {
+              "default": "晓光晨星",
+              "type": "string"
+            },
+            "形态名": {
+              "default": "露米奥罗拉",
+              "type": "string"
+            },
+            "灾祸名": {
+              "default": "灾祸奥罗妲",
+              "type": "string"
+            },
+            "真名": {
+              "default": "朝比奈光",
+              "type": "string"
+            },
+            "武器": {
+              "default": "晨光重盾 · 拂晓",
+              "type": "string"
+            },
+            "星徽": {
+              "default": "晨星冠",
+              "type": "string"
+            },
+            "侵蚀度": {
+              "default": 63,
+              "type": "number"
+            },
+            "圣辉余量": {
+              "default": 37,
+              "type": "number"
+            },
+            "观众": {
+              "default": 31908,
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "纪事": {
+      "default": {
+        "初临": {
+          "回合": 1,
+          "记述": "VaiR 在放学后的校庭西侧张开，缺口尚未缝合。"
+        },
+        "首播": {
+          "回合": 1,
+          "记述": "露米芙妮亚的突击直播开播，观众数在三分钟内翻了一倍。"
+        }
+      },
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "回合": {
+            "default": 0,
+            "type": "number"
+          },
+          "记述": {
+            "default": "",
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
