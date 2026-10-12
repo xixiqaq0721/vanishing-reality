@@ -33,6 +33,22 @@ function resolveTarget(urlPath) {
 
 http
   .createServer((req, res) => {
+    // 宿主页把量测结果回传，落盘成机器可读证据
+    if (req.method === 'POST' && (req.url || '').split('?')[0] === '/report') {
+      let body = '';
+      req.on('data', c => (body += c));
+      req.on('end', () => {
+        try {
+          fs.writeFileSync(path.join(previewRoot, 'iframe-report.json'), body, 'utf8');
+          console.log('iframe report written (' + body.length + ' B)');
+        } catch (e) {
+          console.log('report write failed: ' + e.message);
+        }
+        res.writeHead(204).end();
+      });
+      return;
+    }
+
     const target = resolveTarget(req.url || '/');
     if (!target) {
       res.writeHead(403).end('forbidden');
