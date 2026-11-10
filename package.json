@@ -71,7 +71,10 @@
     "vue-eslint-parser": "^10.4.2",
     "vue-loader": "^17.4.2",
     "vue-style-loader": "^4.1.3",
+<<<<<<< HEAD
     "vue-tsc": "^3.3.14",
+=======
+>>>>>>> 7f88a390b295f1e436517bdb7a90a2ea6db70293
     "webpack": "^5.112.2",
     "webpack-cli": "^7.3.1",
     "webpack-obfuscator": "^3.6.1",
