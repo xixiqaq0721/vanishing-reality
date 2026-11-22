@@ -1032,6 +1032,7 @@ packages:
   '@vue/devtools-shared@8.2.1':
     resolution: {integrity: sha512-Fkac7lUdGReh6pVOi3AYPRGe82LQqRmAfThW7RRligOAP0ZA/Z1z9XLHDM9dv34pV2HRc79DK8uKPeG2fLnA/g==}
 
+<<<<<<< HEAD
   '@vue/language-core@3.3.14':
     resolution: {integrity: sha512-kRB+3hHg0c+BdD1XLAvwjVMQd5pC05zijSlPDRI3ERvC/s04JlRs5upy2KjeMg/9m9oD5zuMVh9yVvkKfZqoJg==}
 
@@ -1047,6 +1048,20 @@ packages:
   '@vue/server-renderer@3.5.46':
     resolution: {integrity: sha512-4mc0YWREc6OZ5pDCigvKPDzIUV+aciiH92yvyTS6xaHHxW/80rMceQQn11pYe7OEEBt2YQgYWR9zF8QF30GJUQ==}
 
+=======
+  '@vue/reactivity@3.5.46':
+    resolution: {integrity: sha512-+FHtYTvGxgFoX3oRs7soz6JHizGv50Q26WJN6PWtXuTLXRfkfUpDUTRuoTA/kiZVVt8NMeMpsPQLh9h++ReUjQ==}
+
+  '@vue/runtime-core@3.5.46':
+    resolution: {integrity: sha512-eJUzKAUaHAmtnys/l9qduPzUnBrYMkmsCU7TN+vbSOSpm8kcETT7nacKxIO4MBej/XiOraVzq+lSeZv7o1//jQ==}
+
+  '@vue/runtime-dom@3.5.46':
+    resolution: {integrity: sha512-6L7lbBvXTYBFFjIt25a0pgdpmn3Ns8RqUnNVibRzF4bgyiWJvqOhKEV5MXYWKlCttZE3aGeJN8mveo+6IrIKXA==}
+
+  '@vue/server-renderer@3.5.46':
+    resolution: {integrity: sha512-4mc0YWREc6OZ5pDCigvKPDzIUV+aciiH92yvyTS6xaHHxW/80rMceQQn11pYe7OEEBt2YQgYWR9zF8QF30GJUQ==}
+
+>>>>>>> 884ced41021768bed2bf7e03c14e0da9ce08e010
   '@vue/shared@3.5.46':
     resolution: {integrity: sha512-P1WePbdzHrcIciWtmY2Im9EFhdakd3rZxYqvalOa3SfoxtF35Q8Uhmj1tKn6bWP4utcOpN8ao6BoJUItq0Uf+g==}
 
@@ -4974,6 +4989,7 @@ snapshots:
       '@vercel/cli-exec': 1.0.1
       jose: 5.10.0
 
+<<<<<<< HEAD
   '@volar/language-core@2.4.30':
     dependencies:
       '@volar/source-map': 2.4.30
@@ -5000,6 +5016,10 @@ snapshots:
 
   '@vue-macros/common@3.1.4(vue@3.5.46(typescript@6.0.3))':
     dependencies:
+=======
+  '@vue-macros/common@3.1.4(vue@3.5.46(typescript@6.0.3))':
+    dependencies:
+>>>>>>> 884ced41021768bed2bf7e03c14e0da9ce08e010
       '@vue/compiler-sfc': 3.5.46
       ast-kit: 2.2.0
       local-pkg: 1.2.1
@@ -5069,6 +5089,7 @@ snapshots:
 
   '@vue/devtools-shared@8.2.1': {}
 
+<<<<<<< HEAD
   '@vue/language-core@3.3.14':
     dependencies:
       '@volar/language-core': 2.4.30
@@ -5101,6 +5122,30 @@ snapshots:
       '@vue/runtime-dom': 3.5.46
       '@vue/shared': 3.5.46
 
+=======
+  '@vue/reactivity@3.5.46':
+    dependencies:
+      '@vue/shared': 3.5.46
+
+  '@vue/runtime-core@3.5.46':
+    dependencies:
+      '@vue/reactivity': 3.5.46
+      '@vue/shared': 3.5.46
+
+  '@vue/runtime-dom@3.5.46':
+    dependencies:
+      '@vue/reactivity': 3.5.46
+      '@vue/runtime-core': 3.5.46
+      '@vue/shared': 3.5.46
+      csstype: 3.2.4
+
+  '@vue/server-renderer@3.5.46':
+    dependencies:
+      '@vue/compiler-ssr': 3.5.46
+      '@vue/runtime-dom': 3.5.46
+      '@vue/shared': 3.5.46
+
+>>>>>>> 884ced41021768bed2bf7e03c14e0da9ce08e010
   '@vue/shared@3.5.46': {}
 
   '@vueuse/components@14.4.0(vue@3.5.46(typescript@6.0.3))':
@@ -7444,8 +7489,11 @@ snapshots:
     dependencies:
       no-case: 3.0.4
       tslib: 2.9.1
+<<<<<<< HEAD
 
   path-browserify@1.0.1: {}
+=======
+>>>>>>> 884ced41021768bed2bf7e03c14e0da9ce08e010
 
   path-exists@4.0.0: {}
 
@@ -8411,6 +8459,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.4
 
+<<<<<<< HEAD
   vscode-jsonrpc@10.0.1: {}
 
   vscode-languageserver-protocol@3.18.6:
@@ -8424,6 +8473,8 @@ snapshots:
 
   vscode-uri@3.2.0: {}
 
+=======
+>>>>>>> 884ced41021768bed2bf7e03c14e0da9ce08e010
   vue-demi@0.14.10(vue@3.5.46(typescript@6.0.3)):
     dependencies:
       vue: 3.5.46(typescript@6.0.3)
@@ -8495,12 +8546,15 @@ snapshots:
       hash-sum: 1.0.2
       loader-utils: 1.4.2
 
+<<<<<<< HEAD
   vue-tsc@3.3.14(typescript@6.0.3):
     dependencies:
       '@volar/typescript': 2.4.30(typescript@6.0.3)
       '@vue/language-core': 3.3.14
       typescript: 6.0.3
 
+=======
+>>>>>>> 884ced41021768bed2bf7e03c14e0da9ce08e010
   vue-word-highlighter@1.2.6(vue@3.5.46(typescript@6.0.3)):
     dependencies:
       diacritics: 1.3.0
