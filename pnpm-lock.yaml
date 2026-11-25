@@ -236,7 +236,11 @@ importers:
         version: 9.6.2(loader-utils@1.4.2)(typescript@6.0.3)(webpack@5.113.0)
       ts-node:
         specifier: ^10.9.2
+<<<<<<< HEAD
         version: 10.9.2(@types/node@26.6.7)(typescript@6.0.3)
+=======
+        version: 10.9.2(@types/node@26.6.9)(typescript@6.0.3)
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
       tsconfig-paths-webpack-plugin:
         specifier: ^4.2.0
         version: 4.2.0
@@ -727,8 +731,13 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
+<<<<<<< HEAD
   '@types/node@26.6.7':
     resolution: {integrity: sha512-tovuRfrUILu6v46bMG+BgXxMvsqPBx2WO2as8Rpln+JTff1dbexMtAM4KFTejmL0axsnSWViCW7MecUQpLuBRA==}
+=======
+  '@types/node@26.6.9':
+    resolution: {integrity: sha512-MkLVXFazHKL5/3lkiYqaSti6Ohv0Vi6z2bPwUQAs/aXUuuY8go4hR3mz8Kvu0lBC2HH0Zn+ON2G9hTglqDD48A==}
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
 
   '@types/q@1.5.8':
     resolution: {integrity: sha512-hroOstUScF6zhIi+5+x0dzqrHA1EJi+Irri6b1fxolMTqqHIV/Cg77EtnQcZqZCu8hR3mX2BzIxN4/GzI68Kfw==}
@@ -1032,6 +1041,7 @@ packages:
   '@vue/devtools-shared@8.2.1':
     resolution: {integrity: sha512-Fkac7lUdGReh6pVOi3AYPRGe82LQqRmAfThW7RRligOAP0ZA/Z1z9XLHDM9dv34pV2HRc79DK8uKPeG2fLnA/g==}
 
+<<<<<<< HEAD
   '@vue/language-core@3.3.14':
     resolution: {integrity: sha512-kRB+3hHg0c+BdD1XLAvwjVMQd5pC05zijSlPDRI3ERvC/s04JlRs5upy2KjeMg/9m9oD5zuMVh9yVvkKfZqoJg==}
 
@@ -1047,6 +1057,20 @@ packages:
   '@vue/server-renderer@3.5.46':
     resolution: {integrity: sha512-4mc0YWREc6OZ5pDCigvKPDzIUV+aciiH92yvyTS6xaHHxW/80rMceQQn11pYe7OEEBt2YQgYWR9zF8QF30GJUQ==}
 
+=======
+  '@vue/reactivity@3.5.46':
+    resolution: {integrity: sha512-+FHtYTvGxgFoX3oRs7soz6JHizGv50Q26WJN6PWtXuTLXRfkfUpDUTRuoTA/kiZVVt8NMeMpsPQLh9h++ReUjQ==}
+
+  '@vue/runtime-core@3.5.46':
+    resolution: {integrity: sha512-eJUzKAUaHAmtnys/l9qduPzUnBrYMkmsCU7TN+vbSOSpm8kcETT7nacKxIO4MBej/XiOraVzq+lSeZv7o1//jQ==}
+
+  '@vue/runtime-dom@3.5.46':
+    resolution: {integrity: sha512-6L7lbBvXTYBFFjIt25a0pgdpmn3Ns8RqUnNVibRzF4bgyiWJvqOhKEV5MXYWKlCttZE3aGeJN8mveo+6IrIKXA==}
+
+  '@vue/server-renderer@3.5.46':
+    resolution: {integrity: sha512-4mc0YWREc6OZ5pDCigvKPDzIUV+aciiH92yvyTS6xaHHxW/80rMceQQn11pYe7OEEBt2YQgYWR9zF8QF30GJUQ==}
+
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
   '@vue/shared@3.5.46':
     resolution: {integrity: sha512-P1WePbdzHrcIciWtmY2Im9EFhdakd3rZxYqvalOa3SfoxtF35Q8Uhmj1tKn6bWP4utcOpN8ao6BoJUItq0Uf+g==}
 
@@ -4681,7 +4705,11 @@ snapshots:
 
   '@types/cors@2.8.19':
     dependencies:
+<<<<<<< HEAD
       '@types/node': 26.6.7
+=======
+      '@types/node': 26.6.9
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
 
   '@types/debug@4.1.13':
     dependencies:
@@ -4726,7 +4754,11 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
+<<<<<<< HEAD
   '@types/node@26.6.7':
+=======
+  '@types/node@26.6.9':
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
     dependencies:
       undici-types: 8.9.0
 
@@ -4760,7 +4792,11 @@ snapshots:
 
   '@types/webpack@5.28.5(postcss@8.5.33)(webpack-cli@7.3.1)':
     dependencies:
+<<<<<<< HEAD
       '@types/node': 26.6.7
+=======
+      '@types/node': 26.6.9
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
       tapable: 2.3.4
       webpack: 5.113.0(postcss@8.5.33)(webpack-cli@7.3.1)
     transitivePeerDependencies:
@@ -4784,7 +4820,11 @@ snapshots:
 
   '@types/ws@8.18.2':
     dependencies:
+<<<<<<< HEAD
       '@types/node': 26.6.7
+=======
+      '@types/node': 26.6.9
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
 
   '@typescript-eslint/eslint-plugin@8.74.0(@typescript-eslint/parser@8.74.0(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3)':
     dependencies:
@@ -4974,6 +5014,7 @@ snapshots:
       '@vercel/cli-exec': 1.0.1
       jose: 5.10.0
 
+<<<<<<< HEAD
   '@volar/language-core@2.4.30':
     dependencies:
       '@volar/source-map': 2.4.30
@@ -5000,6 +5041,10 @@ snapshots:
 
   '@vue-macros/common@3.1.4(vue@3.5.46(typescript@6.0.3))':
     dependencies:
+=======
+  '@vue-macros/common@3.1.4(vue@3.5.46(typescript@6.0.3))':
+    dependencies:
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
       '@vue/compiler-sfc': 3.5.46
       ast-kit: 2.2.0
       local-pkg: 1.2.1
@@ -5069,6 +5114,7 @@ snapshots:
 
   '@vue/devtools-shared@8.2.1': {}
 
+<<<<<<< HEAD
   '@vue/language-core@3.3.14':
     dependencies:
       '@volar/language-core': 2.4.30
@@ -5101,6 +5147,30 @@ snapshots:
       '@vue/runtime-dom': 3.5.46
       '@vue/shared': 3.5.46
 
+=======
+  '@vue/reactivity@3.5.46':
+    dependencies:
+      '@vue/shared': 3.5.46
+
+  '@vue/runtime-core@3.5.46':
+    dependencies:
+      '@vue/reactivity': 3.5.46
+      '@vue/shared': 3.5.46
+
+  '@vue/runtime-dom@3.5.46':
+    dependencies:
+      '@vue/reactivity': 3.5.46
+      '@vue/runtime-core': 3.5.46
+      '@vue/shared': 3.5.46
+      csstype: 3.2.4
+
+  '@vue/server-renderer@3.5.46':
+    dependencies:
+      '@vue/compiler-ssr': 3.5.46
+      '@vue/runtime-dom': 3.5.46
+      '@vue/shared': 3.5.46
+
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
   '@vue/shared@3.5.46': {}
 
   '@vueuse/components@14.4.0(vue@3.5.46(typescript@6.0.3))':
@@ -5901,7 +5971,11 @@ snapshots:
   engine.io@6.6.13:
     dependencies:
       '@types/cors': 2.8.19
+<<<<<<< HEAD
       '@types/node': 26.6.7
+=======
+      '@types/node': 26.6.9
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
       '@types/ws': 8.18.2
       accepts: 1.3.8
       cookie: 0.7.2
@@ -6808,7 +6882,11 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
+<<<<<<< HEAD
       '@types/node': 26.6.7
+=======
+      '@types/node': 26.6.9
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
@@ -7444,8 +7522,11 @@ snapshots:
     dependencies:
       no-case: 3.0.4
       tslib: 2.9.1
+<<<<<<< HEAD
 
   path-browserify@1.0.1: {}
+=======
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
 
   path-exists@4.0.0: {}
 
@@ -8103,14 +8184,22 @@ snapshots:
     optionalDependencies:
       loader-utils: 1.4.2
 
+<<<<<<< HEAD
   ts-node@10.9.2(@types/node@26.6.7)(typescript@6.0.3):
+=======
+  ts-node@10.9.2(@types/node@26.6.9)(typescript@6.0.3):
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.14
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
+<<<<<<< HEAD
       '@types/node': 26.6.7
+=======
+      '@types/node': 26.6.9
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
       acorn: 8.19.0
       acorn-walk: 8.3.5
       arg: 4.1.3
@@ -8411,6 +8500,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.4
 
+<<<<<<< HEAD
   vscode-jsonrpc@10.0.1: {}
 
   vscode-languageserver-protocol@3.18.6:
@@ -8424,6 +8514,8 @@ snapshots:
 
   vscode-uri@3.2.0: {}
 
+=======
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
   vue-demi@0.14.10(vue@3.5.46(typescript@6.0.3)):
     dependencies:
       vue: 3.5.46(typescript@6.0.3)
@@ -8495,12 +8587,15 @@ snapshots:
       hash-sum: 1.0.2
       loader-utils: 1.4.2
 
+<<<<<<< HEAD
   vue-tsc@3.3.14(typescript@6.0.3):
     dependencies:
       '@volar/typescript': 2.4.30(typescript@6.0.3)
       '@vue/language-core': 3.3.14
       typescript: 6.0.3
 
+=======
+>>>>>>> c264c1a620cdf0169281cbcc1ead53e3dcc7f4dc
   vue-word-highlighter@1.2.6(vue@3.5.46(typescript@6.0.3)):
     dependencies:
       diacritics: 1.3.0
